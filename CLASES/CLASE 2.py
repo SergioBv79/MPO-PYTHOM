@@ -100,3 +100,10 @@ print("División entera:", 10 // 3)  # 3
 print("Resto:", 10 % 3)  # 1
 
 # 📌 Útil para cálculos matemáticos.
+
+# 1️⃣4️⃣ Generar un número aleatorio
+# 🔹 random.randint() genera números aleatorios.
+import random
+print("Número aleatorio entre 1 y 10:", random.randint(1, 10))
+
+# 📌 Se usa en juegos y simulaciones.
