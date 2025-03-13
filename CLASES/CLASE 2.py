@@ -1,5 +1,6 @@
 #1️⃣ Longitud de una cadena (len)
 #🔹 Podemos medir cuántos caracteres tiene una cadena usando len().
+import math
 
 nombre = "Sergio Borrajo"
 print("Longitud del nombre:", len(nombre))
@@ -65,4 +66,37 @@ precio = 19.99
 print("Precio con 2 decimales: {:.2f}".format(precio))  # "19.99"
 
 # 📌 Se usa en reportes y facturas.
-#PRUEBA COMMIT1 CLASE 2 COMENTARIO
+
+# 🔟 Obtener el valor ASCII de un carácter
+# 🔹 Función ord() devuelve el valor ASCII.
+print("Código ASCII de 'A':", ord('A'))  # 65
+
+# 📌 Se usa en criptografía.
+
+# 1️⃣1️⃣ Elevar un número al cuadrado
+# 🔹 Operador ** para calcular potencias.
+numero = 5
+print("5 elevado al cuadrado:", numero ** 2)  # 25/
+# el numero que va despues de ** es la potencia
+
+# 📌 Se usa en matemáticas.
+
+# 1️⃣2️⃣ Obtener la raíz cuadrada
+# 🔹 Usamos ** (1/2) para calcular la raíz cuadrada.
+print("Raíz cuadrada de 5:", numero ** 0.5)  # 5.0
+#el numero que va despues de ** es el factor por el que hace la raiz
+# ( seria como elevar en este ejemplo a 0.5) pero para esto mejor esto otro:
+
+raiz_cuadrada = math.sqrt(numero)
+
+print("Raiz cuadrada", raiz_cuadrada)
+
+# 📌 Alternativa a la función sqrt().
+
+# 1️⃣3️⃣ División entera y resto
+# 🔹 División normal /, entera // y módulo %.
+print("División normal:", 10 / 3)  # 3.3333
+print("División entera:", 10 // 3)  # 3
+print("Resto:", 10 % 3)  # 1
+
+# 📌 Útil para cálculos matemáticos.
