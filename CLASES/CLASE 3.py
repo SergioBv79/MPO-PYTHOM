@@ -1,3 +1,11 @@
+"""📌 Clase Teórica - Más utilidades básicas en Python
+📅 Sesión 3 - 07/03/2025
+ 📌 Objetivo: Explicar cómo utilizar más operaciones básicas
+ con variables en Python sin usar bucles ni métodos.
+  Saber dónde vas a trabajar y utilizar funcionalidades
+  que son muy útiles a la hora de diseñar código"""
+
+
 #1️⃣ Longitud de una cadena (len)
 #🔹 Podemos medir cuántos caracteres tiene una cadena usando len().
 import math
